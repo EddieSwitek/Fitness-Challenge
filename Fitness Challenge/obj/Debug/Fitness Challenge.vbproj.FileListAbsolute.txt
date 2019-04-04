@@ -1,0 +1,16 @@
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\bin\Debug\Fitness Challenge.exe.config
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\bin\Debug\Fitness Challenge.exe
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\bin\Debug\Fitness Challenge.pdb
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\bin\Debug\Fitness Challenge.xml
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.vbprojAssemblyReference.cache
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness_Challenge.frmFitness.resources
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness_Challenge.Resources.resources
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.vbproj.GenerateResource.cache
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.vbproj.CoreCompileInputs.cache
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.exe
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.xml
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.pdb
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\bin\Debug\Fitness Challenge.exe.manifest
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\bin\Debug\Fitness Challenge.application
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.exe.manifest
+C:\Users\Eddie\source\repos\Fitness Challenge\Fitness Challenge\obj\Debug\Fitness Challenge.application

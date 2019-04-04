@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Fitness Challenge.exe" version="1.0.0.0" publicKeyToken="ca0e76f00f79d0f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fitness Challenge" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fitness Challenge.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fitness Challenge.exe" size="32736">
+      <assemblyIdentity name="Fitness Challenge" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Rw3xErSbiJc2OVOoqTHpHY3oxXAP8BxJL6fQHcds7gk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fitness Challenge.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c922zfRb5ORzqEo8SDjt8Mx8lDMhGTWhqKcK/oileDM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-QB8Q6HA\Eddie" issuerKeyHash="d406a500a0efb07f19a8becd1f887b2e19d452a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g84pRbMWYA/iMEA5Ksc+AWjbYpawabfLWDToHnxD7Rw=</DigestValue></Reference></SignedInfo><SignatureValue>iATBffB4a/tmYpOGsK5znyfe6+aii/qYvBR776DpNW9HtMAMcGqKBzuxRHfpHFrfARL5fk5ve6heU1moxNnVgLuYHN1jAo5apbkGEJLVg+Lo68aV6tFqp2AL5IxLYebXKn2V4d0Y/rzYw3vU6S3W8EPttJCXehI5Uf/K5QIsWFE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3pYJ1XRKeIK9n0mQ71z7zxOz6q9yZPZruuw7PoPemxOoZ97bTBNkzc53aaDRbl4NwNM+32/2mYvajG4mGJScjN4IK3z5hi5qQKRivUlK8JyslivNvQqCj2/NGJgsppT3wUUy2Pg3xRsvzvAqPKZzDxgzpppeMqTYuGc6bLyHaLE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1ced437c1ee83458cbb769b09662db68013ec72a394030e20f6016b34529ce83" Description="" Url=""><as:assemblyIdentity name="Fitness Challenge.exe" version="1.0.0.0" publicKeyToken="ca0e76f00f79d0f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QB8Q6HA\Eddie</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>64VdqRRIxeZY+euSKqOMOa2Ui/Krp5F9vMWXR4fj6Oc=</DigestValue></Reference></SignedInfo><SignatureValue>RNyiwJCDJgQuGoIODM3j8VTMl2L/UoHYGi09HCzCriozbMb1j3Dg46vOZIlBn1x5n3aC0Z1rk8cXev0qYteRrQbnITXwHJ3c2dCJtHXAY+zb2w2O7EB0m6g55jTXfZ5694yZDjt7uxI4+sicGdoxPjiaFI++Kefy7wuKMo9vVSs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3pYJ1XRKeIK9n0mQ71z7zxOz6q9yZPZruuw7PoPemxOoZ97bTBNkzc53aaDRbl4NwNM+32/2mYvajG4mGJScjN4IK3z5hi5qQKRivUlK8JyslivNvQqCj2/NGJgsppT3wUUy2Pg3xRsvzvAqPKZzDxgzpppeMqTYuGc6bLyHaLE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQVnqgr00D77pIQNzYCkVetDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEAQgA4AFEANgBIAEEAXABFAGQAZABpAGUwHhcNMTgxMTAxMDIzMDQwWhcNMTkxMTAxMDgzMDQwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFEAQgA4AFEANgBIAEEAXABFAGQAZABpAGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN6WCdV0SniCvZ9JkO9c+88Ts+qvcmT2a7rsOz6D3psTqGfe20wTZM3Od2mg0W5eDcDTPt9v9pmL2oxuJhiUnIzeCCt8+YYuakCkYr1JSvCcrJYrzb0Kgo9vzRiYLKaU98FFMtj4N8UbL87wKjymcw8YM6aaXjKk2LhnOmy8h2ixAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAbTH4E7sQ4K52yARNQrBTxiGNd//yNttt6ZhlOanI4a3Ih1IRAMPLyxerZj97k90z8F6dBaSKvxAcTLXC/r2KIZOCmr2PBUCJV0NDRHGMhqI0vZNOnjKUYxge+TX0KrY5V/UCdwTZdXED2UoUrqbGJOeENuszojSiZC3mmvR4sT0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
